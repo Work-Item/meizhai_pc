@@ -1,0 +1,104 @@
+/*分页插件css*/
+.ui-paging-container ul {
+	text-align: center;
+}
+
+.ui-paging-container ul,
+.ui-paging-container li {
+	list-style: none;
+}
+
+.ui-paging-container li {
+	display: inline-block;
+	width: 38px;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+	color: #999999;
+	margin-left: -1px;
+}
+
+.ui-paging-container li {
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.ui-paging-container li.ui-pager:hover,
+.ui-paging-container li.focus {
+	background-color: #B74E4B;
+	color: #FFFFFF;
+}
+.ui-paging-container li.ui-pager:hover,
+.ui-paging-container li.focus {
+	background-color: #B74E4B;
+	color: #FFFFFF;
+}
+
+
+.ui-paging-container li.ui-paging-toolbar {
+	width: auto;
+	border: 0;
+}
+
+.ui-paging-container li.ui-paging-toolbar select {
+	display: none;
+}
+
+.ui-paging-container li.ui-paging-toolbar input {
+	height: 38px;
+	line-height: 38px;
+	width: 38px;
+	text-align: center;
+	padding: 0;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+
+.ui-paging-container li.ui-paging-toolbar a {
+	vertical-align: middle;
+	text-decoration: none;
+	display: inline-block;
+	height: 38px;
+	width: 68px;
+	vertical-align: top;
+	line-height: 38px;
+	cursor: pointer;
+	color: #666;
+	background: #FBFCFD;
+	border: 1px solid #BCBCBC;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #4A4A4A;
+	margin-left: 16px;
+}
+
+.ui-paging-container li.ui-pager-disabled,
+.ui-paging-container li.ui-pager-disabled:hover {
+	background-color: #f6f6f6;
+	cursor: default;
+	border: none;
+	color: #ddd;
+	border: 1px solid #ddd;
+}
+.ui-paging-container .js-page-first,.ui-paging-container .js-page-last{
+	display: none;
+}
+.ui-paging-container .js-page-next,.ui-paging-container .js-page-prev{
+	width: auto;
+}
+.ui-paging-container .js-page-next{
+	margin-right: 24px;
+	padding: 0 30px 0 13px;
+	background: url(../src/common/img/page-next.png) 60px center no-repeat;
+	background-size: 6px 12px;
+}
+
+.ui-paging-container .js-page-prev{
+	padding: 0 13px 0 30px;
+	background: url(../src/common/img/page-prev.png) 14px center no-repeat;
+	background-size: 6px 12px;
+}

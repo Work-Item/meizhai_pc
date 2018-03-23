@@ -1,0 +1,66 @@
+/*------------- 产品-预约banner start -------------*/
+.header{
+	background: #FFFFFF;
+	position: inherit;
+}
+.banner {
+	width: 100%;
+	min-width: 1200px;
+	height: 643px;
+	margin-bottom: 70px;
+	background: url(img/bespeak-bg.png) center top no-repeat;
+	position: relative;
+}
+
+.banner-form{
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom: 111px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.input-txt{
+	display: block;
+	text-align: center;
+	width: 300px;
+	height: 44px;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4a4a4a;
+	margin-bottom: 20px;
+}
+.input-btn{
+	display: block;
+	text-align: center;
+	width: 300px;
+	height: 44px;
+	line-height: 44px;
+	line-height: 20px;
+	color: #4a4a4a;
+	margin-top: 30px;
+	background-image: linear-gradient(128deg, #C56D6B 0%, #9D3B39 49%);
+	border-radius: 4px;
+	font-size: 18px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+::-webkit-input-placeholder {
+　　color:#999;
+}
+
+:-moz-placeholder {
+　　color:#999;
+}
+
+::-moz-placeholder {
+	color:#999;
+}
+
+:-ms-input-placeholder {
+　　color:#999;
+}
+/*------------- 产品-预约banner end -------------*/

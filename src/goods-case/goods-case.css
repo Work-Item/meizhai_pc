@@ -1,0 +1,163 @@
+/*------------- 产品-案例banner start -------------*/
+
+.banner {
+	width: 100%;
+	min-width: 1200px;
+}
+
+.banner img {
+	width: 100%;
+	min-width: 1200px;
+}
+
+
+/*------------- 产品-案例banner end -------------*/
+
+
+/*------------- 产品-案例wrapper start -------------*/
+
+.goods-case-wrapper {
+	width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+
+.goods-case-screen a {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.goods-case-screen .link-jump {
+	display: inline-block;
+	width: 6px;
+	height: 10px;
+	background: url(../common/img/link-jump.png) center center no-repeat;
+	background-size: cover;
+	margin: 0 8px;
+}
+
+.goods-case-screen .goods-link {
+	color: #999999;
+}
+
+.goods-case-screen .case-link {
+	color: #4A4A4A;
+}
+
+.goods-case-screen-route {
+	padding: 36px 0 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.goods-case-screen-list {
+	height: 60px;
+	padding-left: 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: inset 0 -1px 0 0 #DEDEDE;
+}
+
+.goods-case-screen-list span {
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.goods-case-screen-list ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.goods-case-screen-list ul li {
+	line-height: 24px;
+	padding: 0 12px;
+	margin: 0 16px;
+	font-size: 14px;
+	color: #666666;
+	background: #FFFFFF;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.goods-case-screen-list ul li.select {
+	color: #FFFFFF;
+	background: #D65350;
+}
+
+.goods-case-list {
+	margin-top: 50px;
+}
+
+.goods-case-list-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.goods-case-list-wrapper li {
+	width: 386px;
+	height: 363px;
+	overflow: hidden;
+	transition: all .7s;
+	margin-right: 20px;
+	margin-top: 20px;
+	position: relative;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+}
+.goods-case-list-wrapper li:hover{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
+	transform: translateY(-5px);
+}
+.goods-case-list-wrapper li:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.goods-case-list-wrapper li:nth-child(-n+3) {
+	margin-top: 0;
+}
+
+.goods-case-list-wrapper li a {
+	display: block;
+	width: 100%;
+	height: 273px;
+}
+
+.goods-case-list-wrapper li .txt-box {
+	width: 100%;
+	height: 90px;
+	background: #ffffff;
+	padding: 20px 0 0 16px;
+	box-sizing: border-box;
+}
+
+.goods-case-list-wrapper li .txt-box h3 {
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 18px;
+	color: #4A4A4A;
+}
+
+.goods-case-list-wrapper li .txt-box div {
+	margin-top: 10px;
+}
+
+.goods-case-list-wrapper li .txt-box div span {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+	line-height: 12px;
+	margin-right: 10px;
+}
+
+.goods-case-list-paging {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+
+/*------------- 产品-案例wrapper end -------------*/

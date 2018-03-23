@@ -1,0 +1,314 @@
+/*------------- 关于页banner start -------------*/
+
+.banner {
+	width: 100%;
+	min-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner img {
+	width: 100%;
+	min-width: 1500px;
+}
+
+
+/*------------- 关于页banner end -------------*/
+
+
+/*------------- 关于页aboutUs-wraper start -------------*/
+
+.aboutUs-wraper {
+	width: 1200px;
+	min-width: 1200px;
+	margin: 104px auto 0; 
+	position: relative;
+}
+.company-profile{
+	
+}
+
+.company-profile-title {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.company-profile-title h1 {
+	display: inline-block;
+	line-height: 63px;
+	font-size: 45px;
+	font-weight: 300;
+	color: #666666;
+	font-family: PingFangSC-Light;
+}
+
+.company-profile-title span {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	color: #999999;
+	font-family: PingFangSC-Light;
+}
+
+.company-profile-title i {
+	margin-top: 40px;
+	width: 55px;
+	height: 4px;
+	background: #B74E4B;
+}
+.company-profile-content img{
+	width: 100%;
+	margin-top: 50px;
+	
+}
+.company-profile-content p{
+	font-family: PingFangSC-Light;
+	font-size: 24px;
+	color: #666666;
+	line-height: 48px;
+	text-indent: 2em;
+	margin-top: 20px;
+}
+.company-profile-content p span{
+	font-family: PingFangSC-Regular;
+	font-size: 30px;
+	color: #781E18;
+	line-height: 48px;
+	margin-right: 6px;
+}
+.company-profile-guarantee{
+	margin-top: 140px;
+}
+.company-profile-guarantee h3{
+	font-size: 36px;
+	color: #771E18;
+	line-height: 50px;
+	font-weight: normal;
+	position: relative;
+}
+.company-profile-guarantee h3:before{
+	content: '';
+	width: 55px;
+	height: 4px;
+	background: #B74E4B;
+	position: absolute;
+	top: -15px;
+	left: 5px;
+}
+.company-profile-guarantee span{
+	display: block;
+	font-family: PingFangSC-Light;
+	font-size: 26px;
+	color: #666666;
+	line-height: 34px;
+	margin-top: 5px;
+}
+.company-profile-guarantee ul li{
+	font-family: PingFangSC-Light;
+	font-size: 26px;
+	color: #666666;
+	line-height: 34px;
+	margin-top: 30px;
+	padding-left: 36px;
+	position: relative;
+}
+.company-profile-guarantee ul li:first-child{
+	margin-top: 45px;
+}
+.company-profile-guarantee ul li:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #B74E4B;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	margin: auto;
+}
+.company-profile-secret{
+	margin-top: 132px;
+	display: flex;
+	flex-direction: row;
+}
+.company-profile-secret-left{
+	flex: 1;
+	padding: 15px 0;
+	position: relative;
+}
+.company-profile-secret-right{
+	width: 360px;
+	padding: 20px;
+}
+.company-profile-secret-right img{
+	width: 100%;
+	height: 100%;
+}
+
+.company-profile-secret-left h3{
+	font-size: 36px;
+	color: #771E18;
+	line-height: 50px;
+	font-weight: normal;
+	position: relative;
+}
+.company-profile-secret-left h3:before{
+	content: '';
+	width: 55px;
+	height: 4px;
+	background: #B74E4B;
+	position: absolute;
+	top: -15px;
+	left: 5px;
+}
+.company-profile-secret-left span{
+	display: block;
+	font-family: PingFangSC-Light;
+	font-size: 26px;
+	color: #666666;
+	line-height: 34px;
+	margin-top: 5px;
+}
+.company-profile-secret-left ul li{
+	font-family: PingFangSC-Light;
+	padding-left: 35px;
+	font-size: 24px;
+	color: #666666;
+	line-height: 34px;
+	margin-top: 30px;
+	position: relative;
+}
+.company-profile-secret-left ul li:first-child{
+	margin-top: 45px;
+	background: url(../common/img/order-num1.png) left 3px no-repeat;
+	background-size: 30px 40px;
+}
+.company-profile-secret-left ul li:nth-child(2){
+	background: url(../common/img/order-num2.png) left 3px no-repeat;
+	background-size: 30px 40px;
+}
+.company-profile-secret-left ul li:nth-child(3){
+	background: url(../common/img/order-num3.png) left 3px no-repeat;
+	background-size: 30px 40px;
+	
+}
+.company-profile-secret-left ul li:nth-child(4){
+	background: url(../common/img/order-num4.png) left 3px no-repeat;
+	background-size: 30px 40px;
+}
+.company-profile-secret-left img{
+	display: block;
+	width: 517px;
+	height: 235px;
+	position: absolute;
+	top: 360px;
+	left: 350px;
+}
+.service-items{
+	width: 100%;
+	margin-top: 160px;
+}
+
+.service-items-title {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service-items-title h1 {
+	display: inline-block;
+	line-height: 63px;
+	font-size: 45px;
+	font-weight: 300;
+	color: #666666;
+	font-family: PingFangSC-Light;
+}
+
+.service-items-title i {
+	margin-top: 40px;
+	width: 55px;
+	height: 4px;
+	background: #B74E4B;
+}
+.service-items-content{
+	margin-top: 50px;
+}
+.service-items-content img{
+	width: 100%;
+}
+.contact-us{
+	margin: 100px 0 60px;
+}
+.contact-us h3{
+	font-family: PingFangSC-Light;
+	font-size: 36px;
+	color: #666666;
+	line-height: 50px;
+	font-weight: normal;
+}
+.contact-us ul{
+	margin-top: 20px;
+}
+.contact-us ul li{
+	margin-bottom: 30px;
+}
+.contact-us ul li h4{
+	display: inline-block;
+	line-height: 30px;
+	padding: 0 14px 0 8px;
+	background: #B74E4B;
+	margin-bottom: 16px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 300;
+	position: relative;
+}
+.contact-us ul li h4:before{
+	content: '';
+	width: 4px;
+	height: 30px;
+	background: #B74E4B;
+	position: absolute;
+	right: -7px;
+	top: 0;
+}
+.contact-us ul li span{
+	display: block;
+	font-family: PingFangSC-Light;
+	font-size: 16px;
+	color: #666666;
+	line-height: 22px;
+	margin-top: 2px;
+}
+/*------------- 关于页aboutUs-wraper end -------------*/
+
+
+/*------------- 关于页footer start -------------*/
+
+.aboutUs-footer {
+	width: 1200px;
+	height: 92px;
+	width: 100%;
+	background: #02243F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutUs-footer span {
+	display: inline-block;
+	opacity: 0.8;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 17px;
+}
+
+
+/*------------- 关于页footer end -------------*/
